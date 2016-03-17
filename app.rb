@@ -10,6 +10,10 @@ get '/' do
   }.to_json
 end
 
+get '/pumped' do
+  "<strong>GET PUMPED LIKE WIZARDS</strong>.<em> YOLO </em>"
+end
+
 not_found do
   {
     :message => "The resource you requested could not be found."
